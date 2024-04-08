@@ -29,7 +29,7 @@ function CadastroUsuario() {
             <label>Password:</label>
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
             <br />
-            <button onClick={handleCadastro}>Finalizar cadastro</button>
+            <button onClick={handleCadastro}>Confirmar</button>
         </div>
     );
 }
